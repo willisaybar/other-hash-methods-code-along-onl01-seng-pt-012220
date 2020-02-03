@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values
-  binding.pry[ ["a"], ["b"], ["c"]]
+  groceries.values[ ["a"], ["b"], ["c"]]
+  
 end
